@@ -13,7 +13,7 @@ export const init = async (): Promise<Server> => {
   server.route({
     method: 'GET',
     path: '/',
-    handler: () => 'Hello, Server is read!',
+    handler: () => 'Hello, Server is ready!',
   });
 
   return server;
