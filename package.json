@@ -1,5 +1,5 @@
 {
-  "name": "beez-pos-api",
+  "name": "hapi-ts-mongo",
   "version": "1.0.0",
   "main": "index.js",
   "author": "nagoor kani <rasheeeds@gmail.com>",
