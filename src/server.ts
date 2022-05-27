@@ -1,7 +1,8 @@
 import Hapi from '@hapi/hapi';
-import { Request, Server } from '@hapi/hapi';
+import { Server } from '@hapi/hapi';
 import * as config from './config/dev.json';
-import { HelloRoutes } from './Hello';
+import { HelloRoutes } from './hello';
+import { productsRoutes } from './products';
 
 export let server: Server;
 
@@ -20,6 +21,7 @@ export const init = async (): Promise<Server> => {
 
   // adding routes - imported from external module
   server.route(HelloRoutes);
+  server.route(productsRoutes);
 
   return server;
 };

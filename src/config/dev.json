@@ -1,7 +1,7 @@
 {
-  "APP_PORT": "4000",
-  "APP_HOST": "127.0.0.1",
+  "APP_PORT": "4100",
+  "APP_HOST": "localhost",
   "DB_HOST": "mongodb://127.0.0.1:27017",
-  "DB_NAME": "beezPos",
+  "DB_NAME": "hapitsmongo",
   "DB_OPTS": {}
 }
